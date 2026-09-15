@@ -142,7 +142,8 @@
     "**/*.css"
   ],
   "files": [
-    "dist"
+    "dist",
+    ".github/assets"
   ],
   "publishConfig": {
     "access": "public"
