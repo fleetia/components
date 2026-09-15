@@ -3,6 +3,7 @@ import { vanillaExtractPlugin } from "@vanilla-extract/vite-plugin";
 import { fileURLToPath } from "node:url";
 
 const config: StorybookConfig = {
+  staticDirs: [{ from: "../.github/assets", to: "/brand" }],
   stories: [
     "../src/**/__stories__/**/*.stories.@(ts|tsx)",
     "../src/**/__stories__/**/*.mdx",
